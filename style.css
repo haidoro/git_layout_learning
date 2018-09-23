@@ -1,11 +1,12 @@
 .container{
 	background-color: #eee;
 	width: 1000px;
+	height:600px;
 	margin:30px auto;
 
 	display: grid;
-	grid-template-rows: 150px 150px 150px;
-	grid-template-columns: 150px 150px 150px;
+	grid-template-rows: repeat(3,1fr);
+	grid-template-columns: repeat(3,1fr);
 
 	/*grid-row-gap:20px;
 	grid-column-gap:20px;*/
