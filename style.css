@@ -3,7 +3,13 @@
 	width: 1000px;
 	margin:30px auto;
 
+	display: grid;
+	grid-template-rows: 150px 150px 150px;
+	grid-template-columns: 150px 150px 150px;
 
+	/*grid-row-gap:20px;
+	grid-column-gap:20px;*/
+	grid-gap:20px;
 }
 .item{
 	padding: 20px;
