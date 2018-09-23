@@ -71,7 +71,7 @@ max-contentはcontentに依存した大きさになり、最大のcontentのサ�
 }
 ```
 
-#### grid-area
+#### grid-area(branch:no4)
 「grid-row」と「grid-column」をさらにまとめたのが、「grid-area」プロパティです。
 次の例は1行3列から2行4列までという意味になります。
 
@@ -79,7 +79,7 @@ max-contentはcontentに依存した大きさになり、最大のcontentのサ�
 grid-area:1 / 3 / 2 / 4
 ```
 
-### 複数行に渡るグリッドの作成
+### 複数行に渡るグリッドの作成(branch:no5)
 例えば「.item--1」は現在2行目の2列目に配置されています。  
 これを2行目の2列目から3列目にかけて配置したい場合は次のようにします。
 
@@ -158,7 +158,7 @@ item--1だけ変更したレイアウト
 
 ![グリッドレイアウト](images/grid114.png)
 
-### グリッドラインに名前をつける
+### グリッドラインに名前をつける(branch:no6)
 グリッドラインは自動で引かれますが、その時に番号が振られます。
 その番号を使用して設定を行うことができますが、番号の代わりに名前をつけることもできます。その場合は命名するときは[]の中に名前を入れます。名前を使うときはそのまま名前を使います。
 
@@ -179,7 +179,7 @@ item--1だけ変更したレイアウト
 grid-template-rows:repeat(4,[row-start]1fr[row-end]);
 ```
 
-### グリッドエリアに名前をつける
+### グリッドエリアに名前をつける(branch:no7)
 「grid-template-areas」プロパティを使うとグリッドエリアに名前をつけることができます。
 この方法でグリッドを作成すると比較的直感的に作成できるかもしれません。
 
@@ -207,7 +207,7 @@ grid-template-areas:
 }
 ```
 
-### align-itemsとjustify-itemsの活用
+### align-itemsとjustify-itemsの活用(branch:no8)
 gridレイアウトでも「align-items」と「justify-items」が使えます。
 
 デフォルトでは「align-items: stretch;」がグリッドコンテナにかかっています。  
