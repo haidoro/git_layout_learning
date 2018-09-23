@@ -1,0 +1,39 @@
+.container{
+	background-color: #eee;
+	width: 1000px;
+	margin:30px auto;
+
+
+}
+.item{
+	padding: 20px;
+	font-size:24px;
+	color:white;
+}
+.item--1{
+	background-color:red;
+}
+.item--2{
+	background-color:orange;	
+}
+.item--3{
+	background-color:gold;	
+}
+.item--4{
+	background-color:yellow;	
+}
+.item--5{
+	background-color:greenyellow;	
+}
+.item--6{
+	background-color:green;	
+}
+.item--7{
+	background-color:lightseagreen;	
+}
+.item--8{
+	background-color:dodgerblue;	
+}
+.item--9{
+	background-color:darkviolet;	
+}
